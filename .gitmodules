@@ -1,0 +1,12 @@
+[submodule "MX_Alps_Hybrid.pretty"]
+	path = MX_Alps_Hybrid.pretty
+	url = https://github.com/ai03-2725/MX_Alps_Hybrid.pretty
+[submodule "Molex-0548190589.pretty"]
+	path = Molex-0548190589.pretty
+	url = https://github.com/ai03-2725/Molex-0548190589.pretty
+[submodule "keyboard_parts.pretty"]
+	path = keyboard_parts.pretty
+	url = https://github.com/tmk/keyboard_parts.pretty
+[submodule "kicad_lib_tmk"]
+	path = kicad_lib_tmk
+	url = https://github.com/tmk/kicad_lib_tmk
