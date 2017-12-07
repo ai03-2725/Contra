@@ -33,6 +33,7 @@ LIBS:mkl27z256vfm4
 LIBS:josh
 LIBS:Molex-0548190589
 LIBS:MX_Alps_Hybrids
+LIBS:Danck-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -1372,4 +1373,102 @@ Wire Wire Line
 	6025 4250 6025 5000
 Wire Wire Line
 	6025 5000 6175 5000
+$Comp
+L GND #PWR01
+U 1 1 5A2BAA24
+P 850 1050
+F 0 "#PWR01" H 850 800 50  0001 C CNN
+F 1 "GND" H 850 900 50  0000 C CNN
+F 2 "" H 850 1050 50  0001 C CNN
+F 3 "" H 850 1050 50  0001 C CNN
+	1    850  1050
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR02
+U 1 1 5A2BAAFC
+P 850 1150
+F 0 "#PWR02" H 850 900 50  0001 C CNN
+F 1 "GND" H 850 1000 50  0000 C CNN
+F 2 "" H 850 1150 50  0001 C CNN
+F 3 "" H 850 1150 50  0001 C CNN
+	1    850  1150
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR03
+U 1 1 5A2BABD4
+P 1750 950
+F 0 "#PWR03" H 1750 700 50  0001 C CNN
+F 1 "GND" H 1750 800 50  0000 C CNN
+F 2 "" H 1750 950 50  0001 C CNN
+F 3 "" H 1750 950 50  0001 C CNN
+	1    1750 950 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SW_PUSH SW1
+U 1 1 5A2BAD84
+P 2050 1050
+F 0 "SW1" H 2200 1160 50  0000 C CNN
+F 1 "SW_PUSH" H 2050 970 50  0000 C CNN
+F 2 "Molex-0548190589:PushButton_6x6mm_TH" H 2050 1050 60  0001 C CNN
+F 3 "" H 2050 1050 60  0000 C CNN
+	1    2050 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR04
+U 1 1 5A2BAE73
+P 2350 1050
+F 0 "#PWR04" H 2350 800 50  0001 C CNN
+F 1 "GND" H 2350 900 50  0000 C CNN
+F 2 "" H 2350 1050 50  0001 C CNN
+F 3 "" H 2350 1050 50  0001 C CNN
+	1    2350 1050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L +5V #PWR05
+U 1 1 5A2BD3A9
+P 1750 1150
+F 0 "#PWR05" H 1750 1000 50  0001 C CNN
+F 1 "+5V" H 1750 1290 50  0000 C CNN
+F 2 "" H 1750 1150 50  0001 C CNN
+F 3 "" H 1750 1150 50  0001 C CNN
+	1    1750 1150
+	0    1    1    0   
+$EndComp
+Text GLabel 850  850  0    60   Input ~ 0
+COL11
+Text GLabel 850  950  0    60   Input ~ 0
+COL10
+Text GLabel 850  1250 0    60   Input ~ 0
+COL9
+Text GLabel 850  1350 0    60   Input ~ 0
+COL8
+Text GLabel 850  1450 0    60   Input ~ 0
+COL7
+Text GLabel 850  1550 0    60   Input ~ 0
+COL6
+Text GLabel 850  1750 0    60   Input ~ 0
+COL4
+Text GLabel 850  1650 0    60   Input ~ 0
+COL5
+Text GLabel 850  1850 0    60   Input ~ 0
+COL3
+Text GLabel 850  1950 0    60   Input ~ 0
+COL2
+Text GLabel 1750 1250 2    60   Input ~ 0
+COL0
+Text GLabel 1750 1350 2    60   Input ~ 0
+COL1
+Text GLabel 1750 1950 2    60   Input ~ 0
+ROW3
+Text GLabel 1750 1850 2    60   Input ~ 0
+ROW2
+Text GLabel 1750 1750 2    60   Input ~ 0
+ROW1
+Text GLabel 1750 1450 2    60   Input ~ 0
+ROW0
 $EndSCHEMATC
