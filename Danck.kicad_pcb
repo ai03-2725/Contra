@@ -1,9 +1,9 @@
 (kicad_pcb (version 4) (host pcbnew 4.0.7)
 
   (general
-    (links 0)
+    (links 252)
     (no_connects 0)
-    (area 27.309374 28.499999 258.440626 104.850001)
+    (area 8.818751 2.0625 283.28125 117.793751)
     (thickness 1.6)
     (drawings 40)
     (tracks 466)
@@ -12843,7 +12843,7 @@
   (gr_text "5V 17 16 GND" (at 37.4396 64.516) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (gr_text "Pro Micro here!\nComponent side\nfaces away from\nthe PCB.\n\nRev 1.4" (at 76.073 45.466) (layer B.SilkS)
+  (gr_text "Pro Micro here!\nComponent side\nfaces away from\nthe PCB.\n\nRev 1.5" (at 76.073 45.466) (layer B.SilkS)
     (effects (font (size 1 1) (thickness 0.2)) (justify mirror))
   )
   (dimension 38.1 (width 0.3) (layer Dwgs.User)
