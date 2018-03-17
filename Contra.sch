@@ -33,7 +33,7 @@ LIBS:mkl27z256vfm4
 LIBS:josh
 LIBS:Molex-0548190589
 LIBS:MX_Alps_Hybrids
-LIBS:Danck-cache
+LIBS:Contra-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -1480,7 +1480,7 @@ F 1 "Pad" V 2450 1550 50  0000 C CNN
 F 2 "locallib:mountinghole" V 2380 1550 50  0001 C CNN
 F 3 "" H 2450 1550 50  0001 C CNN
 	1    2450 1550
-	0    1    1    0   
+	0    -1   -1   0   
 $EndComp
 $Comp
 L R P2
@@ -1491,7 +1491,7 @@ F 1 "Pad" V 2450 1725 50  0000 C CNN
 F 2 "locallib:mountinghole" V 2380 1725 50  0001 C CNN
 F 3 "" H 2450 1725 50  0001 C CNN
 	1    2450 1725
-	0    1    1    0   
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	2300 1550 1750 1550
@@ -1508,13 +1508,13 @@ F 1 "Pad" V 2450 1900 50  0000 C CNN
 F 2 "locallib:mountinghole" V 2380 1900 50  0001 C CNN
 F 3 "" H 2450 1900 50  0001 C CNN
 	1    2450 1900
-	0    1    1    0   
+	0    -1   -1   0   
 $EndComp
 $Comp
-L +5V #PWR?
+L +5V #PWR06
 U 1 1 5A323A72
 P 2300 1900
-F 0 "#PWR?" H 2300 1750 50  0001 C CNN
+F 0 "#PWR06" H 2300 1750 50  0001 C CNN
 F 1 "+5V" H 2300 2040 50  0000 C CNN
 F 2 "" H 2300 1900 50  0001 C CNN
 F 3 "" H 2300 1900 50  0001 C CNN
@@ -1530,17 +1530,25 @@ F 1 "Pad" V 2450 2075 50  0000 C CNN
 F 2 "locallib:mountinghole" V 2380 2075 50  0001 C CNN
 F 3 "" H 2450 2075 50  0001 C CNN
 	1    2450 2075
-	0    1    1    0   
+	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR?
+L GND #PWR07
 U 1 1 5A323E4A
 P 2300 2075
-F 0 "#PWR?" H 2300 1825 50  0001 C CNN
+F 0 "#PWR07" H 2300 1825 50  0001 C CNN
 F 1 "GND" H 2300 1925 50  0000 C CNN
 F 2 "" H 2300 2075 50  0001 C CNN
 F 3 "" H 2300 2075 50  0001 C CNN
 	1    2300 2075
 	0    1    1    0   
 $EndComp
+Text Notes 7375 7500 0    60   ~ 0
+Contra low-cost ortholinear mechanical keyboard\n
+Text Notes 7275 7250 0    60   ~ 0
+1 1\n
+Text Notes 8125 7650 0    60   ~ 0
+I forgot
+Text Notes 10550 7650 0    60   ~ 0
+1.something\n
 $EndSCHEMATC
