@@ -1,8 +1,6 @@
 (fp_lib_table
-  (lib (name ai03-logo)(type KiCad)(uri "$(KIPRJMOD)/ai03-logo.pretty")(options "")(descr ""))
   (lib (name keyboard_parts)(type KiCad)(uri "$(KIPRJMOD)/keyboard_parts.pretty")(options "")(descr ""))
   (lib (name locallib)(type KiCad)(uri "$(KIPRJMOD)/locallib.pretty")(options "")(descr ""))
   (lib (name Molex-0548190589)(type KiCad)(uri "$(KIPRJMOD)/Molex-0548190589.pretty")(options "")(descr ""))
   (lib (name MX_Alps_Hybrid)(type KiCad)(uri "$(KIPRJMOD)/MX_Alps_Hybrid.pretty")(options "")(descr ""))
-  (lib (name memelogo)(type KiCad)(uri "$(KIPRJMOD)/memelogo.pretty")(options "")(descr ""))
 )
