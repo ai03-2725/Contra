@@ -33,7 +33,7 @@ LIBS:mkl27z256vfm4
 LIBS:josh
 LIBS:Molex-0548190589
 LIBS:MX_Alps_Hybrids
-LIBS:Danck-cache
+LIBS:Contra-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -1543,4 +1543,12 @@ F 3 "" H 2300 2075 50  0001 C CNN
 	1    2300 2075
 	0    1    1    0   
 $EndComp
+Text Notes 7375 7500 0    60   ~ 0
+Contra low-cost ortholinear mechanical keyboard\n
+Text Notes 7275 7250 0    60   ~ 0
+1 1\n
+Text Notes 8125 7650 0    60   ~ 0
+I forgot
+Text Notes 10550 7650 0    60   ~ 0
+1.something\n
 $EndSCHEMATC
