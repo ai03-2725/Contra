@@ -1,5 +1,4 @@
 # Contra
----
 Extremely low cost ortholinear keyboard
 
 ![Render](https://raw.githubusercontent.com/ai03-2725/Contra/master/Images/back-2.0.jpg)
