@@ -5,14 +5,14 @@ Extremely low cost ortholinear keyboard
 
 The bare minimum for a functional keyboard.
 
-Features:
+### Features
 - 2U or split space.
 - All through-hole parts. 48x diodes, 1x Pro Micro.
 - Assembled by M2 standoffs and screws.
 - Programmable via firmware of choice, such as TMK.
 - Nothing fancy. A very nice way to try out some switches, enjoy some DIY, or to test out ortho keyboards.
 
-Parts list:
+### Parts list
 - 48x 1N4148 diodes or similar, THT
 - 1x Pro Micro
 - 48x Switches
@@ -20,3 +20,7 @@ Parts list:
 - One PCB, one plate, and one bottom plate
 - 5 M2 8mm standoffs
 - 10 M2 screws
+
+### Files for production
+- Main PCB: Check the [latest releases](https://github.com/ai03-2725/Contra/releases), or grab the latest gerber [here](https://github.com/ai03-2725/Contra/blob/master/Gerbers/Gerbers.zip).
+- Case files: Check the case repo [here](https://github.com/ai03-2725/ContraPlates).
